@@ -1,0 +1,26 @@
+{
+  "name": "advent-js",
+  "version": "1.0.0",
+  "description": "Advent JS by Midudev. Solve challenges from December 1st to December 24th with Javascript or Typescript.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "Andrés Hortua",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "ts-standard": "^12.0.1",
+    "typescript": "^4.9.3"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "./node_modules/ts-standard/eslintrc.json"
+    ]
+  }
+}
