@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "challenge01": "ts-node-dev --respawn --transpile-only src/challenge01/solution.ts",
+    "challenge02": "ts-node-dev --respawn --transpile-only src/challenge02/solution.ts",
     "tsc": "tsc"
   },
   "keywords": [],
