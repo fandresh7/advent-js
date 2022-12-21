@@ -10,6 +10,7 @@
     "challenge03": "ts-node-dev --respawn --transpile-only src/challenge03/solution.ts",
     "challenge04": "ts-node-dev --respawn --transpile-only src/challenge04/solution.ts",
     "challenge06": "ts-node-dev --respawn --transpile-only src/challenge06/solution.ts",
+    "challenge07": "ts-node-dev --respawn --transpile-only src/challenge07/solution.ts",
     "tsc": "tsc"
   },
   "keywords": [],
